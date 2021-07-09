@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/md_lime_200"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/md_lime_700"
+        android:id="@+id/toolbar2">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginRight="15dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CollegeName"
+                android:id="@+id/tt4"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Products :"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/md_grey_900"
+        android:layout_below="@id/toolbar2"
+        android:textSize="35dp"
+        android:id="@+id/tt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tt"
+        android:textAlignment="center"
+        android:text="Bike 1"
+        android:textColor="@color/md_grey_900"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:id="@+id/tt1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/tt1"
+        android:textAlignment="center"
+        android:text="Bike 2"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:textColor="@color/md_grey_900"
+        android:textSize="25dp"
+        android:id="@+id/tt2"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Bike 3"
+        android:textAlignment="center"
+        android:layout_below="@id/tt2"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/md_grey_900"
+        android:textSize="25dp"
+        android:id="@+id/tt3"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Discounts :"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/md_grey_900"
+        android:layout_marginLeft="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/tt3"
+        android:textSize="35dp"
+        android:id="@+id/tt5"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tt5"
+        android:textAlignment="center"
+        android:textColor="@color/md_grey_900"
+        android:text="Bike 1"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:textSize="22dp"
+        android:id="@+id/tt6"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/tt6"
+        android:textColor="@color/md_grey_900"
+        android:textAlignment="center"
+        android:text="Bike 2"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:textSize="22dp"
+        android:id="@+id/tt7"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Bike 3"
+        android:textColor="@color/md_grey_900"
+        android:textAlignment="center"
+        android:layout_below="@id/tt7"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:textSize="22dp"
+        android:id="@+id/tt8"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Offers :"
+        android:textColor="@color/md_grey_900"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/tt8"
+        android:textSize="35dp"
+        android:id="@+id/tt9"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/tt9"
+        android:textColor="@color/md_grey_900"
+        android:textAlignment="center"
+        android:text="Bike 1"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:id="@+id/tt10"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textColor="@color/md_grey_900"
+        android:layout_below="@id/tt10"
+        android:textAlignment="center"
+        android:text="Bike 2"
+        android:layout_marginTop="5dp"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:id="@+id/tt11"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/tt11"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/md_deep_orange_A400"
+        android:textStyle="bold"
+        android:text="See in Maps"
+        android:id="@+id/btn2"
+        app:backgroundTint="@color/md_light_green_A700"
+        app:cornerRadius="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/btn2"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/md_deep_orange_A400"
+        android:textStyle="bold"
+        android:text="Share Shop"
+        android:id="@+id/btn3"
+        app:backgroundTint="@color/md_light_green_A700"
+        app:cornerRadius="20dp" />
+</RelativeLayout>
